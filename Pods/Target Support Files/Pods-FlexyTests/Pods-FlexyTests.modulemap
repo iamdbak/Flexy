@@ -1,0 +1,6 @@
+framework module Pods_FlexyTests {
+  umbrella header "Pods-FlexyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
