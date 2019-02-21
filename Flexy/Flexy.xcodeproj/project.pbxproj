@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3009F15122093F94009B0015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F15022093F94009B0015 /* AppDelegate.swift */; };
+		3009F15622093F94009B0015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3009F15422093F94009B0015 /* Main.storyboard */; };
+		3009F15922093F94009B0015 /* Flexy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3009F15722093F94009B0015 /* Flexy.xcdatamodeld */; };
+		3009F15B22093F95009B0015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3009F15A22093F95009B0015 /* Assets.xcassets */; };
+		3009F15E22093F95009B0015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3009F15C22093F95009B0015 /* LaunchScreen.storyboard */; };
+		3009F16922093F95009B0015 /* FlexyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F16822093F95009B0015 /* FlexyTests.swift */; };
+		3009F174220C20BB009B0015 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F173220C20BB009B0015 /* MoviesViewController.swift */; };
+		3009F1762212926B009B0015 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F1752212926B009B0015 /* MovieCell.swift */; };
+		3009F178221A9012009B0015 /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F177221A9012009B0015 /* SuperHeroViewController.swift */; };
+		3009F17A221A92FB009B0015 /* SuperHeroCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F179221A92FB009B0015 /* SuperHeroCellCollectionViewCell.swift */; };
+		3009F17C221A97B3009B0015 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F17B221A97B3009B0015 /* DetailViewController.swift */; };
+		3009F17E221E5466009B0015 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009F17D221E5466009B0015 /* TrailerViewController.swift */; };
+		6B7F8D16B35846755DBF8899 /* Pods_Flexy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAFF3B3E4595FA1AE858772 /* Pods_Flexy.framework */; };
+		E819D31EB6118363BF827E46 /* Pods_FlexyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AAEC583995EBD0AB3FA25F /* Pods_FlexyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3009F16522093F95009B0015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3009F14522093F93009B0015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3009F14C22093F94009B0015;
+			remoteInfo = Flexy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3009F14D22093F94009B0015 /* Flexy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3009F15022093F94009B0015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3009F15522093F94009B0015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3009F15822093F94009B0015 /* Flexy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flexy.xcdatamodel; sourceTree = "<group>"; };
+		3009F15A22093F95009B0015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3009F15D22093F95009B0015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3009F15F22093F95009B0015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3009F16422093F95009B0015 /* FlexyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3009F16822093F95009B0015 /* FlexyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexyTests.swift; sourceTree = "<group>"; };
+		3009F16A22093F95009B0015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3009F173220C20BB009B0015 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		3009F1752212926B009B0015 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		3009F177221A9012009B0015 /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
+		3009F179221A92FB009B0015 /* SuperHeroCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		3009F17B221A97B3009B0015 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3009F17D221E5466009B0015 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		83517CAD9FCF8574220D1723 /* Pods-FlexyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexyTests.release.xcconfig"; path = "Target Support Files/Pods-FlexyTests/Pods-FlexyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A536012C4BFF6A341CB93126 /* Pods-Flexy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexy.release.xcconfig"; path = "Target Support Files/Pods-Flexy/Pods-Flexy.release.xcconfig"; sourceTree = "<group>"; };
+		A770A7E80826F976DDB5AFCD /* Pods-Flexy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flexy.debug.xcconfig"; path = "Target Support Files/Pods-Flexy/Pods-Flexy.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCDB8AF6D0DA5DE164BB573 /* Pods-FlexyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexyTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexyTests/Pods-FlexyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAFF3B3E4595FA1AE858772 /* Pods_Flexy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flexy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8AAEC583995EBD0AB3FA25F /* Pods_FlexyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3009F14A22093F94009B0015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7F8D16B35846755DBF8899 /* Pods_Flexy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3009F16122093F95009B0015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819D31EB6118363BF827E46 /* Pods_FlexyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05204DE88E8B46456D42D2C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A770A7E80826F976DDB5AFCD /* Pods-Flexy.debug.xcconfig */,
+				A536012C4BFF6A341CB93126 /* Pods-Flexy.release.xcconfig */,
+				ECCDB8AF6D0DA5DE164BB573 /* Pods-FlexyTests.debug.xcconfig */,
+				83517CAD9FCF8574220D1723 /* Pods-FlexyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E7E999A287F4DF511AC6592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFF3B3E4595FA1AE858772 /* Pods_Flexy.framework */,
+				F8AAEC583995EBD0AB3FA25F /* Pods_FlexyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3009F14422093F93009B0015 = {
+			isa = PBXGroup;
+			children = (
+				3009F14F22093F94009B0015 /* Flexy */,
+				3009F16722093F95009B0015 /* FlexyTests */,
+				3009F14E22093F94009B0015 /* Products */,
+				05204DE88E8B46456D42D2C1 /* Pods */,
+				2E7E999A287F4DF511AC6592 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3009F14E22093F94009B0015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3009F14D22093F94009B0015 /* Flexy.app */,
+				3009F16422093F95009B0015 /* FlexyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3009F14F22093F94009B0015 /* Flexy */ = {
+			isa = PBXGroup;
+			children = (
+				3009F15022093F94009B0015 /* AppDelegate.swift */,
+				3009F15422093F94009B0015 /* Main.storyboard */,
+				3009F15A22093F95009B0015 /* Assets.xcassets */,
+				3009F15C22093F95009B0015 /* LaunchScreen.storyboard */,
+				3009F15F22093F95009B0015 /* Info.plist */,
+				3009F15722093F94009B0015 /* Flexy.xcdatamodeld */,
+				3009F173220C20BB009B0015 /* MoviesViewController.swift */,
+				3009F1752212926B009B0015 /* MovieCell.swift */,
+				3009F177221A9012009B0015 /* SuperHeroViewController.swift */,
+				3009F179221A92FB009B0015 /* SuperHeroCellCollectionViewCell.swift */,
+				3009F17B221A97B3009B0015 /* DetailViewController.swift */,
+				3009F17D221E5466009B0015 /* TrailerViewController.swift */,
+			);
+			path = Flexy;
+			sourceTree = "<group>";
+		};
+		3009F16722093F95009B0015 /* FlexyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3009F16822093F95009B0015 /* FlexyTests.swift */,
+				3009F16A22093F95009B0015 /* Info.plist */,
+			);
+			path = FlexyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3009F14C22093F94009B0015 /* Flexy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3009F16D22093F95009B0015 /* Build configuration list for PBXNativeTarget "Flexy" */;
+			buildPhases = (
+				4866B9839396DDD476F3BCC4 /* [CP] Check Pods Manifest.lock */,
+				3009F14922093F94009B0015 /* Sources */,
+				3009F14A22093F94009B0015 /* Frameworks */,
+				3009F14B22093F94009B0015 /* Resources */,
+				EA2B0931DD382BC64C7659AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flexy;
+			productName = Flexy;
+			productReference = 3009F14D22093F94009B0015 /* Flexy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3009F16322093F95009B0015 /* FlexyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3009F17022093F95009B0015 /* Build configuration list for PBXNativeTarget "FlexyTests" */;
+			buildPhases = (
+				20893195EE32AC53F66C6909 /* [CP] Check Pods Manifest.lock */,
+				3009F16022093F95009B0015 /* Sources */,
+				3009F16122093F95009B0015 /* Frameworks */,
+				3009F16222093F95009B0015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3009F16622093F95009B0015 /* PBXTargetDependency */,
+			);
+			name = FlexyTests;
+			productName = FlexyTests;
+			productReference = 3009F16422093F95009B0015 /* FlexyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3009F14522093F93009B0015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Divyaraj Bakrola";
+				TargetAttributes = {
+					3009F14C22093F94009B0015 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3009F16322093F95009B0015 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3009F14C22093F94009B0015;
+					};
+				};
+			};
+			buildConfigurationList = 3009F14822093F93009B0015 /* Build configuration list for PBXProject "Flexy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3009F14422093F93009B0015;
+			productRefGroup = 3009F14E22093F94009B0015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3009F14C22093F94009B0015 /* Flexy */,
+				3009F16322093F95009B0015 /* FlexyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3009F14B22093F94009B0015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009F15E22093F95009B0015 /* LaunchScreen.storyboard in Resources */,
+				3009F15B22093F95009B0015 /* Assets.xcassets in Resources */,
+				3009F15622093F94009B0015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3009F16222093F95009B0015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20893195EE32AC53F66C6909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4866B9839396DDD476F3BCC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flexy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2B0931DD382BC64C7659AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flexy/Pods-Flexy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flexy/Pods-Flexy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3009F14922093F94009B0015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009F17E221E5466009B0015 /* TrailerViewController.swift in Sources */,
+				3009F17A221A92FB009B0015 /* SuperHeroCellCollectionViewCell.swift in Sources */,
+				3009F15122093F94009B0015 /* AppDelegate.swift in Sources */,
+				3009F15922093F94009B0015 /* Flexy.xcdatamodeld in Sources */,
+				3009F178221A9012009B0015 /* SuperHeroViewController.swift in Sources */,
+				3009F1762212926B009B0015 /* MovieCell.swift in Sources */,
+				3009F174220C20BB009B0015 /* MoviesViewController.swift in Sources */,
+				3009F17C221A97B3009B0015 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3009F16022093F95009B0015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009F16922093F95009B0015 /* FlexyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3009F16622093F95009B0015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3009F14C22093F94009B0015 /* Flexy */;
+			targetProxy = 3009F16522093F95009B0015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3009F15422093F94009B0015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3009F15522093F94009B0015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3009F15C22093F95009B0015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3009F15D22093F95009B0015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3009F16B22093F95009B0015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3009F16C22093F95009B0015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3009F16E22093F95009B0015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A770A7E80826F976DDB5AFCD /* Pods-Flexy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flexy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trail.Flexy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3009F16F22093F95009B0015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A536012C4BFF6A341CB93126 /* Pods-Flexy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flexy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trail.Flexy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3009F17122093F95009B0015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCDB8AF6D0DA5DE164BB573 /* Pods-FlexyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlexyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trail.FlexyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexy.app/Flexy";
+			};
+			name = Debug;
+		};
+		3009F17222093F95009B0015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83517CAD9FCF8574220D1723 /* Pods-FlexyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlexyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trail.FlexyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexy.app/Flexy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3009F14822093F93009B0015 /* Build configuration list for PBXProject "Flexy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3009F16B22093F95009B0015 /* Debug */,
+				3009F16C22093F95009B0015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3009F16D22093F95009B0015 /* Build configuration list for PBXNativeTarget "Flexy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3009F16E22093F95009B0015 /* Debug */,
+				3009F16F22093F95009B0015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3009F17022093F95009B0015 /* Build configuration list for PBXNativeTarget "FlexyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3009F17122093F95009B0015 /* Debug */,
+				3009F17222093F95009B0015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3009F15722093F94009B0015 /* Flexy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3009F15822093F94009B0015 /* Flexy.xcdatamodel */,
+			);
+			currentVersion = 3009F15822093F94009B0015 /* Flexy.xcdatamodel */;
+			path = Flexy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3009F14522093F93009B0015 /* Project object */;
+}
